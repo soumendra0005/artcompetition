@@ -1,18 +1,17 @@
 body {
   padding: 0;
   margin: 0;
-  font-size: 20px;
   color: #ebfc01;
   max-width: 100%;
+  background: url('background.png') no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 header {
   text-align: center;
-  font-size: 1.2em;
 }
 form {
-  position: absolute;
   text-align: center;
-  top: 3%;
   margin-left: 18%;
   max-width: 100%;
 }
@@ -24,13 +23,11 @@ img {
 }
 input {
   padding: 4px 2px;
-  font-size: 25px;
   text-align: center;
   border-radius: 8px;
   background-color: #fffffe;
 }
 textarea {
-  font-size: 22px;
   padding: 8px;
 }
 .college input {
@@ -38,14 +35,12 @@ textarea {
 }
 label {
   font-weight: bold;
-  font-size: 30px;
 }
 section.info {
   text-align: left; 
 }
 p {
   font-weight: bold;
-  font-size: 30px;
 }
 .gender input[type="radio"] {
   height: 1.3em;
@@ -54,7 +49,6 @@ p {
 section.info input[type="submit"] {
   padding: 4px 10px;
   font-weight: bold;
-  font-size: 25px;
 }
 div.submit {
   text-align: center;
@@ -68,7 +62,7 @@ section input[type="tel"] {
 hr{
     width:84%;
 }
-@media screen and (max-width:1350px){
+/* @media screen and (max-width:1350px){
     form{
         font-size: 10px;
         margin-left: 2%;
@@ -84,8 +78,8 @@ hr{
     textarea{
         width: 90%;
     }
-}
-@media screen and (max-width: 1030px){
+} */
+/* @media screen and (max-width: 1030px){
     form{
         font-size: 5px;
         margin-top: 5px;
@@ -97,4 +91,4 @@ hr{
     .gender{
         font-size: 25px;
     }
-}
+} */
