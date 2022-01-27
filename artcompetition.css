@@ -99,6 +99,7 @@ section input[type="tel"] {
 @media screen and (max-width:645px) {
   img {
     top: 32%;
+    left: 53%;
   }
   section input[type="tel"] {
     width: 30%;
